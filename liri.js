@@ -90,6 +90,9 @@ function dowhat() {
 
 
 var searchtype = function(searchtype,searchcontent){
+
+    //tried to log to .txt in this function, but couldnt make it work. asked joey about it, hopefully fixed by the time you grade
+
     switch (searchtype){
         case "concert-this":
             concertsearch(searchcontent)
